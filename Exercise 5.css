@@ -1,0 +1,77 @@
+/* sfondo */
+body{
+  margin: auto;
+  background-image: url(esercizio.jpg);
+  background-size: 100%;
+}
+
+/* contenitore */
+.container{
+  margin: auto;
+  margin-top: 20px;
+  width: 1100px;
+  background-color: black; background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+/* logo e titolo */
+.logo{
+  margin-top:90px;
+  width: 280px
+}
+
+.titolo{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 35px;
+  color: #00ff00;
+}
+
+/* BOTTONI */
+.bottom{
+  margin-left: 110px;
+  margin-right: 110px;
+  background-color: #00ff00;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* SELEZIONI */
+footer{
+  margin-top: 20px;
+  margin-left: 110px;
+  margin-right: 110px;
+  padding-bottom: 110px;
+}
+.caselle{
+  color: white
+}
+.titolo1{
+  background-color: orange;
+  color: orange;
+  padding-right: 280px;
+  border-radius: 5px;
+}
+
+.caselle>div{
+  font-size: 20px;
+}
+
+.caselle>span{
+  font-size: 25px;
+}
+
+.titolo2{
+  background-color: #00ff00;
+  color: #00ff00;
+  padding-right: 480px;
+  border-radius: 5px;
+}
+
+.titolo3{
+  background-color: red;
+  color: red;
+  padding-right: 115px;
+  border-radius: 5px;
+}
